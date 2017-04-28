@@ -236,7 +236,7 @@ void addWorstFreeList(int pageUsed, LinkedList* usedList, LinkedList* Freelist, 
 }
 
 /****************************************************************************************************************
- *                                           addBesttFreeList                                                    *
+ *                                           addBestFreeList                                                    *
  * This function uses the page used, the used list, the free list, and the program name passed to it             *
  * as arguments to add programs to the used list and the free list by using the best-fit strategy. This          *
  * function also checks if the program to be added is already running or if the free memory is enough for        *
